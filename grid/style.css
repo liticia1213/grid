@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(227, 227, 227);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+   align-items: center;
+}
+.step-container{
+    background-color: white;
+    height: 500px;
+    width: 1000px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.step-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.strong{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.code{
+    background-color: rgb(174, 174, 255);
+    border-radius: 10px;
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parent-grid{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+}
+.grid{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    background-color:rgb(174, 174, 255) ;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 5px;
+
+}
+.parent2-grid{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 20px;
+}
+.parent3-grid{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 20px;
+}
+.grid1{
+    grid-column: span 2;
+}
+.grid4{
+    grid-row: span 2;
+}
